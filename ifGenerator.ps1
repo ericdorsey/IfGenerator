@@ -1,4 +1,5 @@
-﻿<# 
+﻿
+<# 
 
 Utility to create horrible, horrible =IF() statement chains for Sharepoint List Derived Columns, or Excel. 
 Splits output into groups of 4+remainder to allow as deep as an IF statement chain as needed. 
@@ -30,7 +31,7 @@ $itemsHash = @{}
 
 # Enter Key/Value pairs needed in the =IF() statement. You can dynamically add/remove as many =IF() 
 # conditions as you need with this hash array. 
-$itemsHash[1] = "item1Name" #
+$itemsHash[1] = "item1Name" 
 $itemsHash[2] = "item2Name"
 $itemsHash[3] = "item3Name"
 $itemsHash[4] = "item4Name"
